@@ -1,0 +1,60 @@
+# Environment variables
+.env
+*.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Django files
+db.sqlite3
+staticfiles/
+media/
+*.log
+
+# Migrations cache (optional – keep if you don’t want migrations tracked)
+# */migrations/
+# !*/migrations/__init__.py
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
+*.seed
+*.bak
+*.tmp
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
